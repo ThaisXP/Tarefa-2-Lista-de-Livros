@@ -1,0 +1,10 @@
+{
+  "books":[
+     {"id":1,"name":"Harry Potter e o Cálice de Fogo", "autor":"J. K. Rolling", "price":35.00},
+     {"id":2,"name":"Comer, Rezar e Amar", "autor":"Elizabeth Gilbert", "price":29.90},
+     {"id":3,"name":"Anjos e Demonios", "autor":"Dan Brown", "price":55.00},
+     {"id":4,"name":"O pequeno Príncipe", "autor":"Antoine de Saint-Exupery", "price":24.90},
+     {"id":5,"name":"A Cabana", "autor":"William P. Young", "price":29.90},
+     {"id":6,"name":"Romeu e Julieta", "autor":"Willian Shakespeare", "price":15.00}
+  ]
+}

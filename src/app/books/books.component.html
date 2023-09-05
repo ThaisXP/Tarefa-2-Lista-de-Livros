@@ -1,0 +1,21 @@
+<div class="display-6 bg-secondary text-center text-light p-3">
+  Cadastro de Livros
+</div>
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Autor</th>
+      <th scope="col">Preço</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let b of books">
+      <th scope="row">{{b.id}}</th>
+      <td>{{b.name}}</td>
+      <td>{{b.autor}}</td>
+      <td>{{b.price}}</td>
+    </tr>
+  </tbody>
+</table>
